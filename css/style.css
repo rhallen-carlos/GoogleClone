@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
+header{
+  height: 76px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+header a{
+  text-decoration: none;
+  color: #3c4043;
+  font-size: 13px;
+  margin: 0 8px;
+}
+
+header .header-menu{
+  width: 23px;
+  margin: 0 2px;
+  padding: 10px;
+}
+
+.header-menu:hover{
+  border-radius: 50px;
+  background: #e0e0e0;
+  padding: 10px;
+}
+
+header .header-perfil{
+  margin-right:  15px;
+  border-radius: 50px;
+  border: 4px solid white;
+}
+
+.header-perfil:hover{
+  border: 4px solid #e0e0e0;
+}
+
+main{
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;  
+}
+
+.conteiner{
+  width: 100%;
+}
+
+.conteiner img{
+  display: block;
+  margin: 0 auto;
+}
+
+form input[type="text"]{
+  
+  width: 580px;
+  display: block;
+  margin: 29px auto;
+  padding: 15px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  border: 1px solid #dfe1e5;
+}
+
+form input[type="text"]:hover{
+  box-shadow: 0 0 10px #dfe1e5;
+}
+
+.form-submit{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-submit input[type="submit"]{
+  width: 140px;
+  margin: 30px 4px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 0;
+  background: #f8f9fa;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form-submit input[type="submit"]:hover{
+  border: 1px solid #dfe1e5;
+  box-shadow: 0 1.5px 0#dfe1e5;
+}
+
+footer{
+  background: #f2f2f2;
+  height: 105px;
+  font-size: 14px;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+
+footer p{
+  margin-left: 35px;
+  margin-top: 15px;  
+  color: #717477;
+}
+
+footer .rodape-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+  align-items: center;
+  height: 54px;
+  margin-top: 10px;
+  border-top: 1px solid #dfe1e5;
+}
+
+.links-esquerda{
+  border: red;
+}
+.links-esquerda a{
+  margin-left: 35px;
+  text-decoration: none;
+  color: #717477;
+}
+
+.links-direita a{
+  margin-right: 35px;
+  text-decoration: none;
+  color: #717477;
+}
+@media screen and (max-width:840px){
+
+}
+
+@media screen and (max-width: 690px){
+  form input[type="text"]{
+    width: 90%;
+  }  
+}
